@@ -1,0 +1,6 @@
+const BASE_URL = 'https://picsum.photos/v2/list';
+const INIT_PAGE_SIZE = 15;
+const TRIGGER_INDEX = 10;
+const PAGE_SIZE = 5;
+const END_THRESHOLD = 1 - TRIGGER_INDEX / INIT_PAGE_SIZE;
+export {BASE_URL, INIT_PAGE_SIZE, TRIGGER_INDEX, PAGE_SIZE, END_THRESHOLD};
